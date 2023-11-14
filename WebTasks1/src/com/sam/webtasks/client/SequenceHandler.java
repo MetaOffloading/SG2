@@ -220,6 +220,7 @@ public class SequenceHandler {
 				block6.announcePoints = true;
 				block6.reminderLockout = true;
 				block6.reminderLockoutTime = Params.reminderLockoutTime;
+				block6.updateProgress = true;
 
 				block6.Run();
 				break;	

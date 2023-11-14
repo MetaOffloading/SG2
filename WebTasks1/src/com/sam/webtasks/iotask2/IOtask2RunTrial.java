@@ -84,7 +84,8 @@ public class IOtask2RunTrial {
 			}
 		};
 
-		ProgressBar.SetProgress(Params.progress++, (2 * Params.nTrials) + 1);
+		ProgressBar.SetProgress(Params.progress++, Params.nTrials);
+		
 		PHP.logData("payment",  IOtask2BlockContext.getMoneyString(), false);
 
 		// get block context
